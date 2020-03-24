@@ -12,6 +12,7 @@ import chess.ChessPosition;
 
 public class Program {
 
+	// java application/Program
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		ChessMatch chessMatch = new ChessMatch();
@@ -46,7 +47,7 @@ public class Program {
 			catch(InputMismatchException e){
 				System.out.println(e.getMessage());
 				sc.nextLine();
-				
+			
 			}
 		}
 		
